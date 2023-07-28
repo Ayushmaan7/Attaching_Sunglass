@@ -1,0 +1,8 @@
+mport cv2
+pic1=cv2.imread("vimal sir.jpg")
+pic3=cv2.imread("sunglas.webp")
+pic3=cv2.resize(pic3,(170,60))
+pic1[200:260,350:520]=pic3
+cv2.imshow("my photo",pic1)
+cv2.waitKey()
+cv2.destroyAllWindows()
